@@ -6,6 +6,17 @@ $(document).ready(function () {
         slidesToShow: 2,
         speed: 500,
         infinite: true,
-        // Остановился на 28:28
+        waitForAnimate: true,
+        centerMode: true,
+        responsive: [
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 1,
+                }
+            },
+
+        ]
+        // Остановился на 44:50
     });
 });

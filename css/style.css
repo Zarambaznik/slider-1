@@ -22,11 +22,18 @@ body {
 }
 
 .images-size {
-    width: 600px;
-    height: 380px;
+    width: 400px;
+    height: 260px;
 }
 
-.slider-item {
+.slider__item {
+    text-align: center;
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.slider__item.slick-center {
+    opacity: 1;
 }
 
 /* Слайдер */
